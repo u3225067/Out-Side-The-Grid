@@ -1,10 +1,46 @@
+
+header img{
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+        
+}
+
+h1 {
+    color: whitesmoke;
+    float: right;
+    font-size: 60px;
+    padding-right: 80px;
+}
+
 body {
     background: black;
-    align-items: center;
-    
+      
     
 }
 
-bimg {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  float: left;
+
+}
+
+a {
+  display: block;
+  padding: 10px;
+  background-color: whitesmoke;
+  text-decoration: none;
+ 
+}
+
+body .bimg {
+    padding-left: 150px;
+    align-content: center;
     
 }
