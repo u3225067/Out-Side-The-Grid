@@ -1,3 +1,63 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 100px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+
+
+article {
+  float:left;
+  padding: 20px;
+  width: 70%;
+  background-color: #DAA520;
+  height: 300px; 
+
+    /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "Clan Navigation";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
 
 header img{
     height: 150px;
@@ -13,8 +73,17 @@ h1 {
     padding-right: 80px;
 }
 
+h2 {
+    color: whitesmoke;
+}
+
+    
+
 body {
     background: black;
+    
+   
+    
       
     
 }
@@ -22,7 +91,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 12;
   
 }
 
@@ -39,17 +108,15 @@ a {
  
 }
 
-body .bimg {
-    padding-left: 150px;
-    align-content: center;
-    
-}
 
 
 
 body .rank {
     text-align: center;
     color: whitesmoke;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 body .rank .img {
@@ -59,7 +126,7 @@ body .rank .img {
 
 div.gallery {
   margin: 50px;
-  border: 30px solid #ccc;
+  border: 30px solid #DAA520;
   float: left;
   width: 140px;
 }
@@ -70,7 +137,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 240px;
 }
 
 div.desc {
