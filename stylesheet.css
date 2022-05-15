@@ -204,10 +204,11 @@ body h4 {
     
 }
 div.gallery2 {
-    margin: 30px;
+    margin: 10px;
     border: 20px solid #DAA520;
     float: left;
     width: 420px;
+   padding-right: 70px;
     
 
  
