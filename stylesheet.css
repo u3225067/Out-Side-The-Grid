@@ -198,7 +198,8 @@ div.desc {
 body h4 {
     font-size: 50px;
     color: whitesmoke;
-    padding-left: 250px;
+   padding-left: 22%;
+    width: auto;
     
 }
 div.gallery2 {
