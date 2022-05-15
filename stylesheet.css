@@ -93,9 +93,9 @@ footer {
 
 @media (max-width: 800px) {
 
-    nav,
-    article, body {
+    nav, article, body, footer {
         max-width: 100%;
+        width: 100%;
         height: auto;
     }
 }
