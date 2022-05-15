@@ -34,7 +34,7 @@ nav {
 nav img {
     width: 175px;
     height: 175px;
-    margin-left: auto;
+    margin: 0;
     padding-left: 40%;
     
  
@@ -105,7 +105,7 @@ footer {
 
 @media (max-width: 600px) {
 
-    nav article body footer {
+    nav,article, body, footer {
         max-width: 600px;
         width: 100%;
         height: auto;
