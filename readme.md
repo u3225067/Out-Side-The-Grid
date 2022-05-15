@@ -11,4 +11,5 @@ By using netlify as my static site generator I can get the URL to look at my sit
 
 This project and subject has been really enjoyable and i will continue enhance my html and css in the future.
 
+Link using static site generator 
 https://callofdutymobileclan-tolnr.netlify.app/
