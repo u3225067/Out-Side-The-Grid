@@ -211,8 +211,9 @@ div.gallery2 img {
     height: 100px;
 }
 
-section.iframe{
+section iframe{
     max-width: 100%;
+    padding-left: 40px;
 }
 
 div.group img{
