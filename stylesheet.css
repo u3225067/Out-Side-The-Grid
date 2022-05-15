@@ -98,9 +98,9 @@ footer {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
-    nav, article, body, footer {
+    nav article body footer {
         max-width: 600px;
         width: 100%;
         height: auto;
@@ -199,19 +199,35 @@ body h4 {
     
 }
 div.gallery2 {
-    margin: 50px;
+    margin: 30px;
     border: 30px solid #DAA520;
     float: left;
     width: 420px;
     
-    
+
  
 }
 
+.container{
+    font-size: 20px;
+    align-content: left;
+    
+    
+}
 
+.container img{
+    width: 400px;
+    height: 300px;
+}
+.container h3{
+    color: whitesmoke;
+    float: left;
+}
 div.gallery2 img {
     width: 300px;
     height: 100px;
+    margin: 30px;
+    
 }
 
 section iframe{
@@ -219,7 +235,3 @@ section iframe{
     padding-left: 30px;
 }
 
-div.group img{
-    height: 300px;
-    width: 400px;
-}
