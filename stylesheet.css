@@ -211,6 +211,11 @@ div.gallery2 img {
     height: 100px;
 }
 
-section iframe{
+section.iframe{
     max-width: 100%;
+}
+
+div.group img{
+    height: 300px;
+    width: 400px;
 }
