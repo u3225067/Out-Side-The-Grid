@@ -34,7 +34,8 @@ nav img {
     width: 175px;
     height: 175px;
     padding-left: 43%;
-    align-self: center
+    width: auto;
+    
 }
 
 article {
