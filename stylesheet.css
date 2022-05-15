@@ -27,6 +27,7 @@ nav {
     height: auto;
     background: #ccc;
     padding: 10px;
+    font-size: 1px;
 
 }
 
@@ -34,7 +35,7 @@ nav img {
     width: 175px;
     height: 175px;
     margin-left: auto;
-    padding-left: 43%;
+    padding-left: 40%;
     
  
     
@@ -64,7 +65,7 @@ article p {
     font-size: 29px;
     float: inherit;
     width: 95%;
-    word-wrap: normal;
+    overflow:auto;
     
     
 }
