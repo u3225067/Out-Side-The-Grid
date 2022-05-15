@@ -34,7 +34,7 @@ nav img {
     width: 175px;
     height: 175px;
     align-items: center;
-    padding-left: 40%;
+    padding-left: 43%;
 }
 
 article {
@@ -135,7 +135,7 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 12;
+    padding-left: 26%;
     align-content: center;
 
 
@@ -201,7 +201,7 @@ body h4 {
 }
 div.gallery2 {
     margin: 30px;
-    border: 30px solid #DAA520;
+    border: 20px solid #DAA520;
     float: left;
     width: 420px;
     
@@ -232,7 +232,8 @@ div.gallery2 img {
 }
 
 section iframe{
-    max-width: 100%;
-    padding-left: 30px;
+    
+    padding-left: 30%;
+    
 }
 
