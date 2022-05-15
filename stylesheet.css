@@ -33,8 +33,10 @@ nav {
 nav img {
     width: 175px;
     height: 175px;
-    padding-left: 43%;
-    width: auto;
+    padding-left: 30%;
+    float: left;
+    height: auto;
+    
     
 }
 
@@ -204,13 +206,13 @@ body h4 {
     
 }
 div.gallery2 {
-    margin: 10px;
-    border: 20px solid #DAA520;
+    margin: 15px;
+    border: 15px solid #DAA520;
     float: left;
     width: 420px;
-   padding-right: 70px;
+    padding-right: 40px;
+   
     
-
  
 }
 
