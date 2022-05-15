@@ -42,7 +42,7 @@ article {
     padding-left: 20px;
     width: 100%;
     background-color: #DAA520;
-    height: 440px;
+    height: auto;
    
 
 
@@ -233,7 +233,7 @@ div.gallery2 img {
 
 section iframe{
     
-    padding-left: 30%;
+    
     
 }
 
