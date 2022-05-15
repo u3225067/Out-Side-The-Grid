@@ -37,10 +37,16 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #DAA520;
-  height: 300px; 
-  font-size: 20px;
+  height: 275px; 
+  
 
     
+}
+
+article p{
+font-size: 23px;
+    padding-left: 20px;
+
 }
 
 section::after {
@@ -49,7 +55,6 @@ section::after {
   clear: both;
 }
 
-/* Style the footer */
 footer {
   background-color: #777;
   padding: 10px;
