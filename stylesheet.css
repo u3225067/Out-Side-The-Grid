@@ -62,7 +62,7 @@ article h1 {
 
 article p {
     font-size: 29px;
-    float: left;
+    float: inherit;
     width: 95%;
     word-wrap: normal;
     
